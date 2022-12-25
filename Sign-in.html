@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index-style.css">
+        <link rel="stylesheet" href="./signin-style.css">
+        <title>Sign In</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class='navbar'>
+                    <div>
+                        <a href='#menu' class="nav-link">
+                            <img src="../LukuWebsite/pictures/main-burak-high-resolution-logo-color-on-transparent-background.png"
+                                alt='Logo' class="logo">
+                            </img>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <form class="nosubmit">
+                            <input class="nosubmit" type="search" placeholder="Search...">
+                        </form>
+                    </div>
+                    <div id="toggle"></div>
+                    <div id="sidebar">
+
+                        <ul class="list">
+
+                            <div>
+                                <li>
+                                    <a href="#" class="nav-link"><img src="./pictures/shopping-cart.png"
+                                            alt="shopping-cart"></a>
+                                </li>
+                            </div>
+                            <div class="signin-Btn">
+                                <li>
+                                    <a href="#" class="nav-link">Sign In</a>
+                                </li>
+                            </div>
+                            <div class="signup-Btn">
+                                <li><a href="#" class="nav-link">Sign Up</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <h2 class="heading">Sign In</h2>
+                <label for="email">Email</label>
+                <input class="input" type="text" name="email" id="email">
+                <label class="lbl-password" for="password">Password</label>
+                <input class="input" type="password" name="password" id="password">
+                <div class="remember">
+                    <label for="remeber-me">Remember Me?</label>
+                    <input type="checkbox" name="remeber-me" id="remeber-me">
+                </div>
+                <button class="signin-btn">Sign In</button>
+                <a class="frgtpass" href="#">Forgot Password?</a>
+            </div>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,55 @@
+body {
+    background-color: blue;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    height: 50vh;
+
+}
+
+.container {
+    background-color: white;
+    width: 20%;
+    padding: 1rem;
+    border-style: outset;
+
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.input {
+    border-radius: 28px;
+    padding: 10px;
+}
+
+.lbl-password {
+    margin-top: 12px;
+}
+
+.remember {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.signin-btn {
+    margin-top: 12px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    border-radius: 28px;
+}
+
+.frgtpass {
+    text-align: end;
+    margin-top: 5px;
+}
